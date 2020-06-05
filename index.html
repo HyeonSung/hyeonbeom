@@ -4,16 +4,17 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HyeonBeom</title>
+<title>index</title>
 <style id="applicationStylesheet" type="text/css">
 	.mediaViewInfo {
-		--web-view-name: HyeonBeom;
-		--web-view-id: HyeonBeom;
+		--web-view-name: index;
+		--web-view-id: index;
 		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
 		--web-enable-deep-linking: true;
 	}
 	:root {
-		--web-view-ids: HyeonBeom;
+		--web-view-ids: index;
 	}
 	* {
 		margin: 0;
@@ -21,23 +22,81 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#HyeonBeom {
+	#index {
 		position: absolute;
 		width: 1920px;
 		height: 1080px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
-		--web-view-name: HyeonBeom;
-		--web-view-id: HyeonBeom;
+		--web-view-name: index;
+		--web-view-id: index;
 		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
 		--web-enable-deep-linking: true;
 	}
-	#HYEONBEOM_YI {
-		left: 352px;
-		top: 214px;
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#__1 {
+		position: absolute;
+		width: 1778px;
+		height: 974px;
+		left: 71px;
+		top: 53px;
+		overflow: visible;
+	}
+	#_2 {
+		fill: rgba(106,106,106,0.239);
+	}
+	._2 {
 		position: absolute;
 		overflow: visible;
-		width: 639px;
+		width: 389px;
+		height: 129px;
+		left: 826px;
+		top: 105px;
+	}
+	#HYEONBEOM {
+		left: 692px;
+		top: 85px;
+		position: absolute;
+		overflow: visible;
+		width: 537px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(0,0,0,1);
+	}
+	#Industrial_Department_of_KAIST {
+		left: 785px;
+		top: 175px;
+		position: absolute;
+		overflow: visible;
+		width: 389px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Calibri;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#YI {
+		left: 698px;
+		top: 155px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
 		white-space: nowrap;
 		text-align: left;
 		font-family: Futura;
@@ -47,29 +106,112 @@
 		color: rgba(0,0,0,1);
 	}
 	#_1 {
-		fill: rgba(0,0,0,1);
+		fill: transparent;
+		stroke: rgba(238,255,0,0.91);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
 	}
 	._1 {
 		position: absolute;
 		overflow: visible;
-		width: 1562px;
-		height: 16px;
-		left: 358px;
-		top: 292px;
+		width: 389px;
+		height: 129px;
+		left: 810px;
+		top: 123px;
 	}
-	#Industrial_Department_of_KAIST {
-		left: 352px;
-		top: 343px;
+	#Researches {
+		left: 811px;
+		top: 261px;
 		position: absolute;
 		overflow: visible;
-		width: 425px;
+		width: 140px;
 		white-space: nowrap;
+		transition: all 0.3s ease-out;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Researches.html;
+		cursor: pointer;
 		text-align: left;
-		font-family: Futura Md BT;
+		font-family: Calibri;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 30px;
 		color: rgba(0,0,0,1);
+	}
+	#Photos {
+		left: 811px;
+		top: 298px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Calibri;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#Artworks {
+		left: 811px;
+		top: 335px;
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Calibri;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#_4 {
+		fill: rgba(240,255,23,1);
+	}
+	._4 {
+		position: absolute;
+		overflow: visible;
+		width: 128px;
+		height: 54px;
+		left: 1792px;
+		top: 939px;
+	}
+	#_5 {
+		fill: rgba(240,255,23,1);
+	}
+	._5 {
+		position: absolute;
+		overflow: visible;
+		width: 128px;
+		height: 11px;
+		left: 1125px;
+		top: 144px;
+	}
+	#_6 {
+		fill: rgba(255,255,255,1);
+	}
+	._6 {
+		position: absolute;
+		overflow: visible;
+		width: 128px;
+		height: 11px;
+		left: 0px;
+		top: 112px;
+	}
+	#_7 {
+		fill: rgba(255,255,255,1);
+	}
+	._7 {
+		position: absolute;
+		overflow: visible;
+		width: 128px;
+		height: 11px;
+		left: 1309px;
+		top: 563px;
 	}
 </style>
 <script id="applicationScript">
@@ -2780,17 +2922,56 @@ window.application = new Application();
 </script>
 </head>
 <body>
-<div id="HyeonBeom">
-	<div id="HYEONBEOM_YI">
-		<span>HYEONBEOM YI</span>
-	</div>
-	<svg class="_1">
-		<rect id="_1" rx="0" ry="0" x="0" y="0" width="1562" height="16">
+<div id="index">
+	<svg style="width:inherit;height:inherit;overflow:visible;">
+		<rect fill="url(#__1_u_pattern)" width="100%" height="100%"></rect>
+			<pattern elementId="__1_u" id="__1_u_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="__1_u_pattern.png" xlink:href="__1_u_pattern.png"></image>
+			</pattern>
+			<img id="__1" src="__1.png" srcset="__1.png 1x, __1@2x.png 2x">
+			</svg>
+	<svg class="_2">
+		<rect id="_2" rx="0" ry="0" x="0" y="0" width="389" height="129">
 		</rect>
 	</svg>
+	<div id="HYEONBEOM">
+		<span>HYEONBEOM</span>
+	</div>
 	<div id="Industrial_Department_of_KAIST">
 		<span>Industrial Department of KAIST<br/>Ph.D Candidate</span>
 	</div>
+	<div id="YI">
+		<span>YI</span>
+	</div>
+	<svg class="_1">
+		<rect id="_1" rx="0" ry="0" x="0" y="0" width="389" height="129">
+		</rect>
+	</svg>
+	<div onclick="application.goToTargetView(event)" id="Researches">
+		<span>Researches</span>
+	</div>
+	<div id="Photos">
+		<span>Photos</span>
+	</div>
+	<div id="Artworks">
+		<span>Artworks</span>
+	</div>
+	<svg class="_4">
+		<rect id="_4" rx="0" ry="0" x="0" y="0" width="128" height="54">
+		</rect>
+	</svg>
+	<svg class="_5">
+		<rect id="_5" rx="0" ry="0" x="0" y="0" width="128" height="11">
+		</rect>
+	</svg>
+	<svg class="_6">
+		<rect id="_6" rx="0" ry="0" x="0" y="0" width="128" height="11">
+		</rect>
+	</svg>
+	<svg class="_7">
+		<rect id="_7" rx="0" ry="0" x="0" y="0" width="128" height="11">
+		</rect>
+	</svg>
 </div>
 </body>
 </html>
